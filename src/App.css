@@ -3,3 +3,45 @@
   margin: 0;
   padding: 0;
 }
+
+.mainBody {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainBody h1 {
+  margin-bottom: 1em;
+  font-size: 5em;
+  color: #4200b0;
+}
+
+.hello {
+  height: 20em;
+  width: 20em;
+  background-image: linear-gradient(to right bottom, #4200b0, #501bb4, #5c2db7, #673cbb, #724abe);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 6px 17px -2px rgba(0,0,0,0.68); 
+box-shadow: 1px 6px 17px -2px rgba(0,0,0,0.68);
+}
+
+.mainBtn {
+  padding: .75em 1.5em;
+  cursor: pointer;
+  margin: 1.5em;
+  background-color: white;
+  color: #4200b0;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+
+
+
